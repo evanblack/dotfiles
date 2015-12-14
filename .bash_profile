@@ -9,6 +9,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home
 #export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 #export JAVA_HOME=`/usr/libexec/java_home -d 64 -v "1.6*"`
 export PATH=$JAVA_HOME/bin:$PATH
+export PATH=~/.npm-global/bin:$PATH
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
